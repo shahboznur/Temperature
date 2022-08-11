@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Harorat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main" id="calc">
+            <h3 class="title">Haroratni o'lchash</h3>
+            <div class="case">
+                <input class="caseNum" type="text" placeholder="Celsius" id="firstNumber">
+                
+                <input class="caseNum" type="text" placeholder="Fahrenheit" id="result">
+            </div>
+
+            <div class="operations">
+                <input id="convert" class="btn" onclick="ctoF()" type="button" value="Yuborish">
+                
+                <button id="reverse" class="btn">Almashtirish</button>
+            </div>
+            <input class="reset" type="button" onclick="actualiser()" value="O'chirish">
+        </div>
+    </div>
+        
+    <script src="/JS/script.js"></script>
+</body>
+</html>
